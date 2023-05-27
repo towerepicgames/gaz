@@ -1,6 +1,6 @@
 const status = document.getElementById("discord-status");
 const pfp = document.getElementsByClassName("pfp")[0];
-fetch("https://api.lanyard.rest/v1/users/454920881177624576")
+fetch("https://api.lanyard.rest/v1/users/699394279843299388")
   .then((res) => res.json())
   .then((af) => {
     let discordstatus = [];
